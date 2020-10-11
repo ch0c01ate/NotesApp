@@ -48,7 +48,7 @@ class NoteDataManager {
     }
     
     func getNote(with id:Int) -> Note? {
-        return notes.filter({ $0.id == id }).first
+        return notes.filter({ $0.id == id }).first // Hint: .first(where:)
     }
     
     func updateNote(with id: Int, name: String, text: String, tags: Set<String>) {
@@ -75,12 +75,12 @@ class NoteDataManager {
     
     func switchFavourite(forNoteWithId id: Int) {
         if let index = notes.firstIndex(where: {$0.id == id}) {
-            notes[index].isFavourite = !notes[index].isFavourite
+            notes[index].isFavourite = !notes[index].isFavourite // Hint: .toggle()
         }
     }
     
     // TODO: add creation date if neccessary
-    func filterBy(tags: Set<String>) -> Array<Note> {
+    func filterBy(tags: Set<String>) -> Array<Note> { // Hint: [Note] instead of Array<>
         return notes.filter {tags.isSubset(of: $0.tags)}
     }
     
@@ -90,7 +90,7 @@ class NoteDataManager {
     
     func sortedByDate() -> Array<Note> {
         return notes.sorted(by: {
-            $0.creationDate.compare($1.creationDate) == .orderedDescending
+            $0.creationDate.compare($1.creationDate) == .orderedDescending // Hint: Also you can compare dates with <, > overloaded method
         })
     }
     
@@ -102,6 +102,19 @@ class NoteDataManager {
     
     
     private func isNoteNameUnique(_ name: String) -> Bool {
-        return notes.filter({ $0.name == name }).count == 0
+        return notes.filter({ $0.name == name }).count == 0 // Hint: .contains(where:)
     }
 }
+
+// No tests provided
+
+let manager = NoteDataManager()
+manager.createNote(named: "name", text: "text", tags: ["tag"])
+
+print(manager.notes)
+manager.switchFavourite(forNoteWithId: 1)
+print(manager.getNote(with: 1))
+manager.createNote(named: "name", text: "text", tags: ["tag"])
+print(manager.notes)
+manager.deleteNote(with: 1)
+print(manager.notes)
