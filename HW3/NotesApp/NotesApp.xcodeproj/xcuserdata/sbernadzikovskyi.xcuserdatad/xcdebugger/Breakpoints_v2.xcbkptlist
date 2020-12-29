@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "7A98310A-6FD3-45AC-B3CB-E772733DFDC9"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "35D487C7-6D3D-45D7-8688-C6F23357898A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NotesApp/ViewControllers/NotesListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "35D487C7-6D3D-45D7-8688-C6F23357898A - bd54826c408a36b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NotesApp.NotesListViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "NotesApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sbernadzikovskyi/Desktop/UCU%20subjects/iOS/NotesApp/HW3/NotesApp/NotesApp/ViewControllers/NotesListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "714">
+               </Location>
+               <Location
+                  uuid = "35D487C7-6D3D-45D7-8688-C6F23357898A - bd54826c408a36b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NotesApp.NotesListViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "NotesApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sbernadzikovskyi/Desktop/UCU%20subjects/iOS/NotesApp/HW3/NotesApp/NotesApp/ViewControllers/NotesListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "795">
+               </Location>
+               <Location
+                  uuid = "35D487C7-6D3D-45D7-8688-C6F23357898A - bd54826c408a36b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NotesApp.NotesListViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "NotesApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sbernadzikovskyi/Desktop/UCU%20subjects/iOS/NotesApp/HW3/NotesApp/NotesApp/ViewControllers/NotesListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "1615">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0E1C75AF-9791-4F7A-AC84-6366560C1D3D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NotesApp/Managers/NoteDataManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "184"
+            endingLineNumber = "184"
+            landmarkName = "updateCoreNote(id:named:text:isFavourite:creationDate:deletionDate:updateFavor:updateCreation:updateDeletion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
